@@ -23,6 +23,8 @@
     }
 
     .caixa-animatronics {
+        display: block;
+        width: 50px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -60,9 +62,9 @@
 
     .logo-header {
         height: 43px;
-        margin-right: 30px;
-        margin-top: 5px;
-    }
+         }
+        
+        
 
     .logo {
         display: flex;
@@ -74,19 +76,19 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 350px;
-        height: 500px;
-        margin-left: -207px;
+        width: 365px;
+        height: 360px;
+        
     }
 
     .william-maior {
-        height: 350px;
+        height: 340px;
     }
 
 
 
     .texto-william-maior {
-        font-size: 14px;
+        font-size: 12px;
 
     }
 
@@ -94,9 +96,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 350px;
-        height: 500px;
-        margin-left: -207px;
+        width: 365px;
+        height: 360px;
     }
 
     .freddy-maior {
@@ -116,9 +117,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 350px;
-            height: 500px;
-            margin-left: -207px;
+            width: 365px;
+            height: 360px;
         }
     
         .chica-maior {
@@ -137,13 +137,12 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 350px;
-            height: 500px;
-            margin-left: -207px;
+            width: 365px;
+            height: 360px;
         }
     
         .bonnie-maior {
-            height: 200px;
+            height: 250px;
         }
     
     
@@ -157,13 +156,12 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 350px;
-            height: 500px;
-            margin-left: -207px;
+            width: 365px;
+            height: 360px;
         }
     
         .foxy-maior {
-            height: 350px
+            height: 250px
         }
     
     
@@ -174,23 +172,23 @@
 
 
 
-        .caixa-golden-maior {
+        .caixa-golden {
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 350px;
-            height: 500px;
-            margin-left: -207px;
+            width: 365px;
+            height: 360px;
+            
         }
     
-        .golden-maior {
-            height: 350px;
+        .golden {
+            height: 150px;
         }
     
     
     
-        .texto-golden-maior {
-            font-size: 14px;
+        .texto-golden {
+            font-size: 13px;
         }
             
 }
