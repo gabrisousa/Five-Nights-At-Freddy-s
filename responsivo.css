@@ -1,0 +1,196 @@
+@media screen and (max-width: 768px) {
+    
+        
+
+    .caixa {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caixa-conteudo {
+        display: flex;
+        margin-top: 910px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .tutorial {
+        display: none;
+    }
+
+    .caixa-animatronics {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .header {
+        width: 100%;
+
+    }
+
+    .video-fundo {
+        min-width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    
+        
+        
+    }
+
+    .video-fundo video {
+    height: 210vh;
+    
+        
+    }
+
+    .icone-switch {
+        height: 50px;
+    }
+
+    .night {
+        font-size: 15px;
+    }
+
+    .logo-header {
+        height: 43px;
+        margin-right: 30px;
+        margin-top: 5px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .caixa-william-maior {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        height: 500px;
+        margin-left: -207px;
+    }
+
+    .william-maior {
+        height: 350px;
+    }
+
+
+
+    .texto-william-maior {
+        font-size: 14px;
+
+    }
+
+    .caixa-freddy-maior {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        height: 500px;
+        margin-left: -207px;
+    }
+
+    .freddy-maior {
+        height: 350px
+    }
+
+
+
+    .texto-freddy-maior {
+        font-size: 14px;
+
+         }
+
+
+
+         .caixa-chica-maior {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 350px;
+            height: 500px;
+            margin-left: -207px;
+        }
+    
+        .chica-maior {
+            height: 250px
+        }
+    
+        
+    
+        .texto-chica-maior {
+            font-size: 14px;
+
+        }
+
+
+        .caixa-bonnie-maior {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 350px;
+            height: 500px;
+            margin-left: -207px;
+        }
+    
+        .bonnie-maior {
+            height: 200px;
+        }
+    
+    
+    
+        .texto-bonnie-maior {
+            font-size: 14px;
+        }
+
+
+        .caixa-foxy-maior {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 350px;
+            height: 500px;
+            margin-left: -207px;
+        }
+    
+        .foxy-maior {
+            height: 350px
+        }
+    
+    
+    
+        .texto-foxy-maior {
+            font-size: 14px;
+        }
+
+
+
+        .caixa-golden-maior {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 350px;
+            height: 500px;
+            margin-left: -207px;
+        }
+    
+        .golden-maior {
+            height: 350px;
+        }
+    
+    
+    
+        .texto-golden-maior {
+            font-size: 14px;
+        }
+            
+}
