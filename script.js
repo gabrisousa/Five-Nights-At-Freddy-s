@@ -5,7 +5,7 @@ const imagem6 = document.getElementById('logoFnaf');
 const video6 = document.getElementById('jumpscareGolden');
 const audio6 = document.getElementById('audioGolden');
 const mostrarCaixa6 = document.getElementById('caixa-golden-escondido');
-const mostrarMascara = document.querySelector('.mascara-2');
+const mostrarMascara = document.querySelector(".mascara-2");
 
 
 

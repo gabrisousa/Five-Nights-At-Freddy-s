@@ -2,7 +2,7 @@ const imagem = document.getElementById('minhaImagem');
 const video = document.getElementById('jumpscareNightmareFreddy');
 const audio = document.getElementById('audio-nightmare-freddy');
 const mostrarCaixa = document.getElementById('caixa-nightmare-freddy-maior-escondido');
-
+const mostrarMascara = document.querySelector(".mascara-2");
 
 
 function Box() {
