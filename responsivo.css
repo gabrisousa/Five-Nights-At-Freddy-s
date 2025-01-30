@@ -1,6 +1,50 @@
 @media(max-width: 768px) {
-    
-        
+
+
+
+    .jumpscare-warning {
+        height: 400%;
+        width: 100%;
+        background-color: black;
+        position: fixed;
+        z-index: 2;
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+
+
+
+
+
+    }
+
+    .warning {
+        margin-top: 298px;
+
+
+
+    }
+
+    .warning h1 {
+        font-size: 43px;
+    }
+
+    .warning p {
+        font-size: 16px;
+    }
+
+    .observação {
+        margin-top: 678px;
+        margin-left: 16px;
+        font-size: 13px;
+    }
+
+
+
+
 
     .caixa {
         display: block;
@@ -8,6 +52,10 @@
         justify-content: center;
         display: flex;
         flex-direction: column;
+    }
+
+    .jumpscare-warning {
+        position: absolute;
     }
 
     .caixa-conteudo {
@@ -38,18 +86,18 @@
 
     .video-fundo {
         min-width: 100vw;
-    min-height: 100vh;
-    position: fixed;
-    top: 0;
-    
-        
-        
+        min-height: 100vh;
+        position: fixed;
+        top: 0;
+
+
+
     }
 
     .video-fundo video {
-    height: 210vh;
-    
-        
+        height: 210vh;
+
+
     }
 
     .icone-switch {
@@ -62,9 +110,9 @@
 
     .logo-header {
         height: 43px;
-         }
-        
-        
+    }
+
+
 
     .logo {
         display: flex;
@@ -78,7 +126,7 @@
         justify-content: center;
         width: 410px;
         height: 360px;
-        
+
     }
 
     .william-maior {
@@ -109,89 +157,89 @@
     .texto-freddy-maior {
         font-size: 14px;
 
-         }
+    }
 
 
 
-         .caixa-chica-maior {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 420px;
-            height: 360px;
-        }
-    
-        .chica-maior {
-            height: 350px;
-            width: 180px;
-        }
-    
-        
-    
-        .texto-chica-maior {
-            font-size: 14px;
+    .caixa-chica-maior {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 420px;
+        height: 360px;
+    }
 
-        }
-
-
-        .caixa-bonnie-maior {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 420px;
-            height: 360px;
-        }
-    
-        .bonnie-maior {
-            height: 350px;
-            width: 180px;
-        }
-    
-    
-    
-        .texto-bonnie-maior {
-            font-size: 14px;
-        }
-
-
-        .caixa-foxy-maior {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 420px;
-            height: 360px;
-        }
-    
-        .foxy-maior {
-            height: 350px;
-            width: 170px;
-        }
-    
-    
-    
-        .texto-foxy-maior {
-            font-size: 14px;
-        }
+    .chica-maior {
+        height: 350px;
+        width: 180px;
+    }
 
 
 
-        .caixa-golden {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 410px;
-            height: 360px;
-            
-        }
-    
-        .golden {
-            height: 150px;
-        }
-    
-    
-    
-        .texto-golden {
-            font-size: 13px;
-        }
-            
+    .texto-chica-maior {
+        font-size: 14px;
+
+    }
+
+
+    .caixa-bonnie-maior {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 420px;
+        height: 360px;
+    }
+
+    .bonnie-maior {
+        height: 350px;
+        width: 180px;
+    }
+
+
+
+    .texto-bonnie-maior {
+        font-size: 14px;
+    }
+
+
+    .caixa-foxy-maior {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 420px;
+        height: 360px;
+    }
+
+    .foxy-maior {
+        height: 350px;
+        width: 170px;
+    }
+
+
+
+    .texto-foxy-maior {
+        font-size: 14px;
+    }
+
+
+
+    .caixa-golden {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 410px;
+        height: 360px;
+
+    }
+
+    .golden {
+        height: 150px;
+    }
+
+
+
+    .texto-golden {
+        font-size: 13px;
+    }
+
 }
