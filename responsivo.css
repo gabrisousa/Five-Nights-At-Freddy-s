@@ -96,7 +96,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 365px;
+        width: 410px;
         height: 360px;
     }
 
@@ -117,12 +117,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 365px;
+            width: 410px;
             height: 360px;
         }
     
         .chica-maior {
-            height: 250px
+            height: 350px;
+            width: 197px;
         }
     
         
@@ -137,12 +138,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 365px;
+            width: 410px;
             height: 360px;
         }
     
         .bonnie-maior {
-            height: 250px;
+            height: 350px;
+            width: 197px;
         }
     
     
@@ -156,12 +158,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 365px;
+            width: 410px;
             height: 360px;
         }
     
         .foxy-maior {
-            height: 250px
+            height: 350px;
+            width: 197px;
         }
     
     
@@ -176,7 +179,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 365px;
+            width: 410px;
             height: 360px;
             
         }
