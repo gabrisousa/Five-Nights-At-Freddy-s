@@ -15,29 +15,58 @@
 
 <body>
 
-    <div class="video-intro" id="videoIntro">
-        <video id="introVideo" autoplay muted>
+    <div id="warningJ" class="jumpscare-warning">
+
+        <div class="warning">
+
+            <h1>Aviso!</h1>
+
+            <p>Este site contem sustos e audios altos!
+                cuidado<br> ao prosseguir se voce tem algum problema de saúde sério!</p>
+            <button onclick="prosseguir()" class="avançar">Prosseguir</button>
+            </h1>
+        </div>
+
+        <div class="observação">
+            o site contém música de fundo, para uma maior experiência vá em:<br>
+            Configurações > Privacidade e segurança > Config do site > mais config de conteúdo > Som ,<br>e adicione o
+            site na lista permitir a reprodução de sons.
+        </div>
+    </div>
+
+    <div class="video-intro">
+        <video id="introVideo" muted>
             <source src="./src/videos/video-intro.mp4" type="video/mp4">
         </video>
     </div>
 
     <div class="header">
         <div class="switch">
+            <a href="nightmare.html">
+                <img class="icone-switch" src="./src/imagens/Icone-Switch.png" alt="">
 
-            <img class="icone-switch" src="./src/imagens/Icone-Switch.png" alt="">
-            <img class="em-breve" src="./src/imagens/em breve.png">
+
+
+
+
+            </a>
+            <a class="link" href="nightmare.html">
+                <p class="night">Nightmare</p>
+            </a>
+
+
+
         </div>
 
         <img class="logo-header" src="./src/imagens/fnaf-logo-header.png">
 
 
+
     </div>
 
-    <audio id="scream" class="grito" src="./src/audios/grito-intro.mp3"
-        autoplay></audio>
+    <audio id="scream" class="grito" src="./src/audios/grito-intro.mp3"></audio>
 
-    <audio id="music" class="musica-fundo" src="./src/audios/musica-fundo.mp3"
-        autoplay></audio>
+    <audio id="music" class="musica-fundo" src="./src/audios/musica-fundo.mp3"></audio>
 
 
     <div class="video-fundo">
@@ -51,7 +80,7 @@
 
 
     <div class="logo">
-        <img class="logo-spring" src="./src/imagens/Logo.png" onclick="show()">
+        <img class="logo-spring" src="./src/imagens/Logo.png">
         <img id="logoFnaf" class="logo-fnaf" src="./src/imagens/Logo-Fnaf.png" alt="" onclick="Box6()">
         <video id="jumpscareGolden" class="video-golden-freddy" src="./src/videos/video-golden-freddy.mp4"></video>
     </div>
@@ -65,31 +94,37 @@
         </div>
 
 
+
         <div class="caixa-william">
             <img class="fundo-william" src="./src/imagens/fundo-william.jpg">
             <img id="minhaImagem" class="william" onclick="Box()" src="./src/imagens/William Afton.png" alt="">
             <div class="efeito-william"></div>
             <h1>William Afton</h1>
             <video id="jumpscareAfton" class="video-afton" src="./src/videos/video-afton.mp4"></video>
-            <audio id="audioAfton" class="fala-afton"
-                src="./src/audios/audio-william.mp3"></audio>
+            <audio id="audioAfton" class="fala-afton" src="./src/audios/audio-william.mp3"></audio>
 
         </div>
 
-        <div class="caixa-william-maior">
-            <img class="william-maior" src="./src/imagens/William Afton.png" alt="">
-            <div class="texto-william-maior">
-                <button onclick="janela()">X</button>
-                <h1>William Afton</h1>
-                <p>O Vilão por trás de toda a trama, William Afton é o fundador da Fazbear Pizza junto com seu amigo
-                    Henry Emmily, depois de ter feito um atrocidade com sua filha, William comete uma onda de
-                    assassinatos que dá vida aos seus animatrônicos com a alma das vítimas, escondido por trás de sua
-                    fantasia do Spring Bonnie, um serial Killer, até que um dia seu traje foi danificado pela água e o
-                    matou ali dentro, ou talvez? acho que não, sempre que pensam que ele morreu, William sempre volta!
-                </p>
+        <div id="caixa-william-maior-escondido">
+
+            <div class="caixa-william-maior">
+                <img class="william-maior" src="./src/imagens/William Afton.png" alt="">
+                <div class="texto-william-maior">
+                    <button onclick="janela()">X</button>
+                    <h1>William Afton</h1>
+                    <p>O Vilão por trás de toda a trama, William Afton é o fundador da Fazbear Pizza junto com seu amigo
+                        Henry Emmily, depois de ter feito um atrocidade com sua filha, William comete uma onda de
+                        assassinatos que dá vida aos seus animatrônicos com a alma das vítimas, escondido por trás de
+                        sua
+                        fantasia do Spring Bonnie, um serial Killer, até que um dia seu traje foi danificado pela água e
+                        o
+                        matou ali dentro, ou talvez? acho que não, sempre que pensam que ele morreu, William sempre
+                        volta!
+                    </p>
+
+                </div>
 
             </div>
-
         </div>
 
 
@@ -103,8 +138,7 @@
                 <img class="fundo-freddy" src="./src/imagens/fundo-freddy.jpeg">
                 <h1>Freddy</h1>
                 <video id="jumpscareFreddy" class="video-freddy" src="./src/videos/video-freddy.mp4"></video>
-                <audio id="musicaFreedy"
-                    src="./src/audios/musica-freddy (Freddy's Music) (mp3cut.net).mp3"></audio>
+                <audio id="musicaFreedy" src="./src/audios/musica-freddy (Freddy's Music) (mp3cut.net).mp3"></audio>
 
             </div>
 
@@ -139,66 +173,99 @@
             </div>
 
         </div>
-        <div class="caixa-freddy-maior">
-            <img class="freddy-maior" src="./src/imagens/Freddy.png" alt="">
-            <div class="texto-freddy-maior">
-                <button onclick="janela2()">X</button>
-                <h1>Freddy</h1>
-                <p>Uma das primeiras Vítimas de William, uma das crianças, com sua alma dentro de um animatronico, Fred
-                    é o líder e um dos mais perigosos,nao gosta de se expõr as cameras e gosta de estar sempre oculto e
-                    um passo a frente.</p>
 
+        <div id="caixa-freddy-maior-escondido">
+
+            <div class="caixa-freddy-maior">
+                <img class="freddy-maior" src="./src/imagens/Freddy.png" alt="">
+                <div class="texto-freddy-maior">
+                    <button onclick="janela2()">X</button>
+                    <h1>Freddy</h1>
+                    <p>Uma das primeiras Vítimas de William, uma das crianças, com sua alma dentro de um animatronico,
+                        Fred
+                        é o líder e um dos mais perigosos,nao gosta de se expõr as cameras e gosta de estar sempre
+                        oculto e
+                        um passo a frente.</p>
+
+                </div>
             </div>
         </div>
 
-        <div class="caixa-chica-maior">
-            <img class="chica-maior" src="./src/imagens/Chica.png" alt="">
-            <div class="texto-chica-maior">
-                <button onclick="janela4()">X</button>
-                <h1>Chica</h1>
-                <p>O toque feminino do grupo, a alma da criança dentro de chica tambem é outra Vítima, com seu bolinho
-                    carísmatico mas tambem muito perigoso, chica gosta de chamar atenção e anunciar sua chegada.</p>
+        <div id="caixa-chica-maior-escondido">
 
+            <div class="caixa-chica-maior">
+                <img class="chica-maior" src="./src/imagens/Chica.png" alt="">
+                <div class="texto-chica-maior">
+                    <button onclick="janela4()">X</button>
+                    <h1>Chica</h1>
+                    <p>O toque feminino do grupo, a alma da criança dentro de chica tambem é outra Vítima, com seu
+                        bolinho
+                        carísmatico mas tambem muito perigoso, chica gosta de chamar atenção e anunciar sua chegada.</p>
+
+                </div>
             </div>
+
         </div>
 
-        <div class="caixa-bonnie-maior">
-            <img class="bonnie-maior" src="./src/imagens/Bonnie.png" alt="">
-            <div class="texto-bonnie-maior">
-                <button onclick="janela5()">X</button>
-                <h1>Bonnie</h1>
-                <p>Com sua Guitarra maneira, Bonnie é o que dá vida nas músicas dos shows, mas, o primeiro quem decide a
-                    dar o primeiro passo para atacar, é ele. Bonnie não gosta de ser vigiado e na deixa rastros onde ele
-                    passar. </p>
+        <div id="caixa-bonnie-maior-escondido">
 
+            <div class="caixa-bonnie-maior">
+                <img class="bonnie-maior" src="./src/imagens/Bonnie.png" alt="">
+                <div class="texto-bonnie-maior">
+                    <button onclick="janela5()">X</button>
+                    <h1>Bonnie</h1>
+                    <p>Com sua Guitarra maneira, Bonnie é o que dá vida nas músicas dos shows, mas, o primeiro quem
+                        decide a
+                        dar o primeiro passo para atacar, é ele. Bonnie não gosta de ser vigiado e não deixa rastros
+                        onde
+                        ele
+                        passar. </p>
+
+                </div>
             </div>
+
         </div>
 
-        <div class="caixa-foxy-maior">
-            <img class="foxy-maior" src="./src/imagens/Foxy.png" alt="">
-            <div class="texto-foxy-maior">
-                <button onclick="janela3()">X</button>
-                <h1>Foxy</h1>
-                <p>O pirata Foxy, apesar de não estar presente nas apresentações dos animatronics, Foxy esta sempre em
-                    seu palco coberto com sua cortina, é um lembrete, que nem sempre oque não esta visível não deixa de
-                    ser uma ameaça, Foxy não gosta de enrolar, a primeira oportunidade que ele tiver , irá correndo pra
-                    cima de sua vítima.</p>
 
+        <div id="caixa-foxy-maior-escondido">
+
+            <div class="caixa-foxy-maior">
+                <img class="foxy-maior" src="./src/imagens/Foxy.png" alt="">
+                <div class="texto-foxy-maior">
+                    <button onclick="janela3()">X</button>
+                    <h1>Foxy</h1>
+                    <p>O pirata Foxy, apesar de não estar presente nas apresentações dos animatronics, Foxy esta sempre
+                        em
+                        seu palco coberto com sua cortina, é um lembrete, que nem sempre oque não esta visível não deixa
+                        de
+                        ser uma ameaça, Foxy não gosta de enrolar, a primeira oportunidade que ele tiver , irá correndo
+                        pra
+                        cima de sua vítima.</p>
+
+                </div>
             </div>
+
         </div>
 
-        <div class="caixa-golden">
-            <img class="golden" src="./src/imagens/Golden Freedy.png">
-            <video id="jumpscareGolden" class="video-golden-freddy" src="./src/videos/video-golden-freddy.mp4"></video>
-            <audio id="audioGolden" class="audio-golden" src="./src/audios/audio-golden.mp3"></audio>
-            <div class="texto-golden">
-                <button onclick="janela6()">X</button>
-                <h1>Golden Freddy</h1>
-                <p>A primeira Vítima da família de William, seu filho, Evan Afton, foi morto no dia de seu Aniversário
-                    quando seu Irmão que sempre fazia bullying com ele decidiu colocar sua cabeça dentro da boca do
-                    Fredbear e entao fredbear o matou com sua mordida e sua alma foi parar dentro de Fred, se tornando,
-                    Golden Freedy. </p>
+        <div id="caixa-golden-escondido">
+
+            <div class="caixa-golden">
+                <img class="golden" src="./src/imagens/Golden Freedy.png">
+                <video id="jumpscareGolden" class="video-golden-freddy"
+                    src="./src/videos/video-golden-freddy.mp4"></video>
+                <audio id="audioGolden" class="audio-golden" src="./src/audios/audio-golden.mp3"></audio>
+                <div class="texto-golden">
+                    <button onclick="janela6()">X</button>
+                    <h1>Golden Freddy</h1>
+                    <p>A primeira Vítima da família de William, seu filho, Evan Afton, foi morto no dia de seu
+                        Aniversário
+                        quando seu Irmão que sempre fazia bullying com ele decidiu colocar sua cabeça dentro da boca do
+                        Fredbear e entao fredbear o matou com sua mordida e sua alma foi parar dentro de Fred, se
+                        tornando,
+                        Golden Freedy. </p>
+                </div>
             </div>
+
         </div>
 
         <div class="mascara-2"></div>
@@ -209,7 +276,8 @@
 
 
 </body>
-<script src="./script.js"></script>
-<script src="./intro.js"></script>
+<script src="script.js"></script>
+<script src="intro.js"></script>
+
 
 </html>
