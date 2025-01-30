@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 230vh;
     font-family: "Poppins" sans-serif;
     color: white;
 }
@@ -760,6 +760,66 @@ body {
 
 
 
+@media screen and (max-width: 768px) {
+    
+        
 
+    .caixa {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caixa-conteudo {
+        display: flex;
+        margin-top: 910px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .tutorial {
+        display: none;
+    }
+
+    .caixa-animatronics {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .header {
+        width: 100%;
+
+    }
+
+    .video-fundo {
+        min-width: 150vw;
+        height: 550vh;
+    }
+
+    .icone-switch {
+        height: 50px;
+    }
+
+    .night {
+        font-size: 15px;
+    }
+
+    .logo-header {
+        height: 43px;
+        margin-right: 30px;
+        margin-top: 5px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
   
