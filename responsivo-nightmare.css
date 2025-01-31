@@ -1,0 +1,199 @@
+@media(max-width: 768px) {
+
+
+
+
+
+
+
+    .caixa {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .caixa-conteudo {
+        display: flex;
+        margin-top: 910px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .tutorial {
+        display: none;
+    }
+
+    .caixa-animatronics {
+        display: block;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .header {
+        width: 100%;
+
+    }
+
+    .video-fundo-fnaf-4 {
+        min-width: 100vw;
+        min-height: 100vh;
+        position: fixed;
+        top: 0;
+
+
+
+    }
+
+    .video-fundo-fanf-4 video {
+        height: 210vh;
+
+
+    }
+
+    .icone-freddy {
+        height: 50px;
+    }
+
+
+    .logo-header {
+        height: 43px;
+    }
+
+
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .caixa-nightmare-freddy-maior {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 410px;
+        height: 360px;
+
+    }
+
+    .nightmare-freddy-maior {
+        height: 340px;
+    }
+
+
+
+    .texto-nightmare-freddy--maior {
+        font-size: 12px;
+
+    }
+
+    .caixa-nightmare-chica-maior {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 410px;
+        height: 360px;
+    }
+
+    .nightmare-chica-maior {
+        height: 350px
+    }
+
+
+
+    .texto-nightmare-chica-maior {
+        font-size: 14px;
+
+    }
+
+
+
+    .caixa-nightmare-bonnie-maior {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 420px;
+        height: 360px;
+    }
+
+    .nightmare-bonnie-maior {
+        height: 350px;
+        width: 180px;
+    }
+
+
+
+    .texto-nightmare-bonnie-maior {
+        font-size: 14px;
+
+    }
+
+
+    .caixa-nightmare-foxy-maior {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 420px;
+        height: 360px;
+    }
+
+    .nightmare-foxy-maior {
+        height: 350px;
+        width: 180px;
+    }
+
+
+
+    .texto-nightmare-foxy-maior {
+        font-size: 14px;
+    }
+
+
+    .caixa-nightmarionne-maior {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 420px;
+        height: 360px;
+    }
+
+    .nightmarionne-maior {
+        height: 350px;
+        width: 170px;
+    }
+
+
+
+    .texto-nightmarionne-maior {
+        font-size: 14px;
+    }
+
+
+
+    .caixa-fredbear {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 410px;
+        height: 360px;
+
+    }
+
+    .fredbear {
+        height: 150px;
+    }
+
+
+
+    .texto-fredbear {
+        font-size: 13px;
+    }
+
+}
