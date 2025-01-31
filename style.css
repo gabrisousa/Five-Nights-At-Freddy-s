@@ -236,6 +236,7 @@ body {
 
 #caixa-william-maior-escondido {
     display: none;
+    
 }
 
 .caixa-william-maior {
@@ -261,6 +262,7 @@ body {
     height: 780px;
     cursor: pointer;
     background-color: black;
+    border-radius: 15px;
 }
 
 
@@ -375,6 +377,7 @@ body {
     height: 700px;
     cursor: pointer;
     background-color: black;
+    border-radius: 15px;
 }
 
 .texto-freddy-maior {
@@ -455,6 +458,7 @@ body {
     height: 780px;
     cursor: pointer;
     background-color: black;
+    border-radius: 15px;
 }
 
 
@@ -550,6 +554,7 @@ body {
     height: 780px;
     cursor: pointer;
     background-color: black;
+    border-radius: 15px;
 }
 
 
@@ -646,6 +651,7 @@ body {
     height: 780px;
     cursor: pointer;
     background-color: black;
+    border-radius: 15px;
 }
 
 
@@ -691,6 +697,7 @@ body {
     height: 700px;
     cursor: pointer;
     background-color: black;
+    border-radius: 15px;
 }
 
 
@@ -755,3 +762,7 @@ body {
     transition: opacity 2s ease-out;
     overflow: hidden;
 }
+
+
+
+  
