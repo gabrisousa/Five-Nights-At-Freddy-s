@@ -179,7 +179,7 @@ function ajustarVideoNightmareFoxy() {
   if (window.innerWidth < 768) {
     video.src = "./src/videos/jumpscre-nightmare-foxy-responsivo.mp4";
   } else {
-    video.src = "./src/videos/jumpscare-nightmare-foxy.mp4";
+    video.src = "./src/videos/jumpscre-nightmare-foxy.mp4";
   }
 }
 
@@ -210,7 +210,7 @@ function ajustarVideoNightmarionne() {
   if (window.innerWidth < 768) {
     video.src = "./src/videos/jumspcare-nightmarionne-responsivo.mp4";
   } else {
-    video.src = "./src/videos/jumpscare-nightmarionne.mp4";
+    video.src = "./src/videos/jumspcare-nightmarionne.mp4";
   }
 }
 
