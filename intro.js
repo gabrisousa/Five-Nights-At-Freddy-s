@@ -1,7 +1,7 @@
 const avançar = document.querySelector(".jumpscare-warning");
 const introVideo = document.getElementById('introVideo');
 const audio1 = document.getElementById('scream');
-const musica = document.getElementById('music');
+// const musica = document.getElementById('music');
 
 function prosseguir() {
 
@@ -14,7 +14,7 @@ function prosseguir() {
         introVideo.style.opacity = '0'
 
 
-        musica.play();
+        // musica.play();
 
         setTimeout(() => {
 
